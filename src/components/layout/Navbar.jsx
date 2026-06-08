@@ -82,13 +82,6 @@ export default function Navbar() {
 
         <div className="flex items-center gap-3">
           <a
-            href={siteConfig.resumeUrl}
-            download={siteConfig.resumeFileName}
-            className="hidden rounded-xl border border-[var(--border-subtle)] px-4 py-2 text-sm font-semibold text-[var(--text-secondary)] transition-colors hover:border-[var(--border-glow)] hover:text-brand-400 sm:inline-flex"
-          >
-            CV
-          </a>
-          <a
             href="#contact"
             onClick={(e) => {
               e.preventDefault();
@@ -132,16 +125,6 @@ export default function Navbar() {
               onClick={(e) => e.stopPropagation()}
             >
               <ul className="flex flex-col gap-2">
-                <li>
-                  <a
-                    href={siteConfig.resumeUrl}
-                    download={siteConfig.resumeFileName}
-                    className="flex w-full rounded-xl px-4 py-3 text-base font-medium text-[var(--text-secondary)] transition-colors hover:bg-brand-500/10 hover:text-brand-400"
-                    onClick={() => setMobileOpen(false)}
-                  >
-                    Download CV
-                  </a>
-                </li>
                 {siteConfig.navLinks.map((link) => (
                   <li key={link.id}>
                     <button
