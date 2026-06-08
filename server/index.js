@@ -2,10 +2,13 @@ import cors from "cors";
 import dotenv from "dotenv";
 import express from "express";
 import rateLimit from "express-rate-limit";
+import path from "path";
+import { fileURLToPath } from "url";
 import { connectDatabase } from "./db/index.js";
 import contactRoutes from "./routes/contact.js";
 
-dotenv.config();
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+dotenv.config({ path: path.join(__dirname, "..", ".env") });
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -61,7 +64,7 @@ app.use((err, _req, res, _next) => {
 });
 
 if (!process.env.DATABASE_URL) {
-  console.error("✗  DATABASE_URL is required. Add your Neon PostgreSQL URL to server/.env");
+  console.error("✗  DATABASE_URL is required. Add your Neon PostgreSQL URL to .env in the project root");
   process.exit(1);
 }
 

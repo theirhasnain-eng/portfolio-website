@@ -102,24 +102,25 @@ API runs at http://localhost:5000
 2. Submit the form.
 3. Messages are saved to your **Neon PostgreSQL** database (`contacts` table).
 
-### Local environment files (optional)
+### Environment file (one file only)
 
-**Frontend** — create `.env` in the project root (only needed if API is on a different URL):
-
-```env
-# Leave empty for local dev (Vite proxies /api → localhost:5000)
-VITE_API_URL=
-```
-
-**Backend** — create `server/.env`:
+Create **one** `.env` file in the **project root** (not inside `server/`):
 
 ```env
 PORT=5000
 CLIENT_URL=http://localhost:5173
+VITE_API_URL=
 DATABASE_URL=postgresql://user:password@ep-xxxx.neon.tech/neondb?sslmode=require
 ```
 
-`DATABASE_URL` is **required** — the API uses PostgreSQL only.
+| Variable | Purpose |
+|----------|---------|
+| `DATABASE_URL` | **Required** — Neon PostgreSQL connection string |
+| `VITE_API_URL` | Leave empty locally and on Vercel (same-domain `/api`) |
+| `CLIENT_URL` | Your live site URL in production (for CORS) |
+| `PORT` | Local API port (default `5000`) |
+
+> `.env` is gitignored — never commit it.
 
 ---
 
@@ -131,13 +132,7 @@ Use [Neon](https://neon.tech) — free serverless PostgreSQL.
 2. Create a new project (e.g. `portfolio`).
 3. Open your project → **Connection Details**.
 4. Copy the **connection string** (choose **Node.js** or **psql** format).
-5. Paste it into `server/.env` as `DATABASE_URL`.
-
-Example `server/.env`:
-
-```env
-DATABASE_URL=postgresql://neondb_owner:YOUR_PASSWORD@ep-cool-name-12345678.us-east-2.aws.neon.tech/neondb?sslmode=require
-```
+5. Paste it into `.env` in the project root as `DATABASE_URL`.
 
 Restart the server. You should see: `✓ Connected to Neon PostgreSQL`
 
@@ -358,12 +353,11 @@ portfolio-web/
 ├── server/                   ← Backend API (Express + Neon PostgreSQL)
 │   ├── db/                   ← Database connection & schema
 │   ├── index.js
-│   ├── .env                  ← DATABASE_URL (do not commit)
 │   └── data/                 ← (optional local folder)
 ├── src/                      ← React frontend
 ├── docs/
 │   └── RUN-AND-DEPLOY.md     ← This file
-├── .env                      ← VITE_API_URL (do not commit)
+├── .env                      ← All env vars (do not commit)
 └── dist/                     ← Built frontend (after npm run build)
 ```
 

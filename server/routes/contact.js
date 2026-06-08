@@ -26,7 +26,7 @@ router.post("/", async (req, res, next) => {
     if (!req.app.locals.dbConnected) {
       return res.status(503).json({
         success: false,
-        message: "Database is not configured. Set DATABASE_URL in server/.env",
+        message: "Database is not configured. Set DATABASE_URL in .env",
       });
     }
 
