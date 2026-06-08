@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { FiDownload, FiMapPin } from "react-icons/fi";
+import { siteImages } from "../../data/images";
 import { siteConfig } from "../../data/siteConfig";
 import Button from "../ui/Button";
 import ProfileImage from "../ui/ProfileImage";
@@ -32,7 +33,7 @@ export default function About() {
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.6 }}
           >
-            <ProfileImage />
+            <ProfileImage src={siteImages.about} />
             <div className="glass absolute -bottom-4 -right-2 rounded-2xl px-5 py-3 sm:-right-6">
               <p className="text-2xl font-bold text-gradient">3+</p>
               <p className="text-xs text-[var(--text-muted)]">Years Experience</p>

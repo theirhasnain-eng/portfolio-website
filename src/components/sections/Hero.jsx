@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { FiDownload } from "react-icons/fi";
 import { HiArrowDown, HiOutlineMail, HiSparkles } from "react-icons/hi";
+import { siteImages } from "../../data/images";
 import { siteConfig } from "../../data/siteConfig";
 import Button from "../ui/Button";
 import ProfileImage from "../ui/ProfileImage";
@@ -141,7 +142,7 @@ export default function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
           >
-            <ProfileImage size="hero" />
+            <ProfileImage src={siteImages.hero} size="hero" />
             <motion.div
               className="glass absolute -bottom-2 -left-2 rounded-2xl px-4 py-3 sm:left-4 lg:-left-6"
               initial={{ opacity: 0, y: 20 }}

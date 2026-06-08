@@ -3,19 +3,17 @@ export const siteConfig = {
   title: "Frontend Developer",
   tagline:
     "I design and build stunning, high-performance web experiences that convert visitors into clients.",
-  email: "hello@hasnain.dev",
+  email: "theirhasnain@gmail.com",
   location: "Pakistan · Open to Remote",
-  profileImage: "/images/profile.jpg",
   bio: `I'm a passionate Frontend Web Developer who transforms ideas into polished, production-ready interfaces. With deep expertise in React, JavaScript, and modern CSS, I craft experiences that feel fast, intuitive, and memorable.
 
 From responsive landing pages to complex dashboards, I combine clean architecture with premium UI design. I'm always learning, always shipping, and always focused on what matters — your users.`,
   resumeUrl: "/cv/hasnain-cv.pdf",
   resumeFileName: "Hasnain-CV.pdf",
   social: {
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/theirhasnain-eng",
+    linkedin: "https://www.linkedin.com/in/muhammad-hasnain-a2916237b/",
     twitter: "https://twitter.com",
-    email: "mailto:hello@hasnain.dev",
   },
   stats: [
     { value: "3+", label: "Years Experience" },
