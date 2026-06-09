@@ -17,5 +17,9 @@ export const siteImages = {
 
   /** Portfolio-1  project card */
 
-   myportfolio: "/images/portfolio-1.png"
+   myportfolio: "/images/portfolio-1.png",
+
+   /** Portfolio-2  project card */
+
+   portfolio: "/images/portfolio-2.png",
 };
