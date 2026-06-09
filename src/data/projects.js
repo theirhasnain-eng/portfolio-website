@@ -19,7 +19,7 @@ export const projects = [
       "An interactive developer portfolio built to showcase web development projects, expertise, and professional journey. Features responsive design, engaging animations, and optimized performance for a seamless user experience across all devices.",
     tech: ["React", "JS", "Local Storage", "Tailwind.css"],
     image:siteImages.portfolio ,
-    liveUrl: "portfolio-chi-opal-97.vercel.app",
+    liveUrl: "https://portfolio-chi-opal-97.vercel.app/",
     githubUrl: "https://github.com/usmanali56/Portfolio.git",
     featured: true,
   },
