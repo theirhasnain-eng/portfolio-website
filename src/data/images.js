@@ -14,4 +14,8 @@ export const siteImages = {
 
   /** Smart Resume AI project card */
   smartResumeAi: "/images/smart-resume-ai.png",
+
+  /** Portfolio-1  project card */
+
+   myportfolio: "/images/portfolio-1.png"
 };

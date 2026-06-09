@@ -158,7 +158,7 @@ export default function Contact() {
                   value={form.name}
                   onChange={handleChange}
                   className={inputClass("name")}
-                  placeholder="John Doe"
+                  placeholder="Muhammad Hasnain"
                   autoComplete="name"
                 />
                 {errors.name && (
@@ -177,7 +177,7 @@ export default function Contact() {
                   value={form.email}
                   onChange={handleChange}
                   className={inputClass("email")}
-                  placeholder="you@example.com"
+                  placeholder="theirhasnain@gmail.com"
                   autoComplete="email"
                 />
                 {errors.email && (

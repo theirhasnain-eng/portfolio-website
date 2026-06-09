@@ -16,24 +16,22 @@ export const projects = [
     id: 2,
     title: "Portfolio-website",
     description:
-      "Kanban-style project management dashboard with drag-and-drop boards, dark mode, and real-time task updates.",
+      "An interactive developer portfolio built to showcase web development projects, expertise, and professional journey. Features responsive design, engaging animations, and optimized performance for a seamless user experience across all devices.",
     tech: ["React", "JS", "Local Storage", "Tailwind.css"],
-    image:
-      "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&q=80",
-    liveUrl: "https://usman.zogofy.com/",
-    githubUrl: "https://github.com",
+    image:siteImages.portfolio ,
+    liveUrl: "portfolio-chi-opal-97.vercel.app",
+    githubUrl: "https://github.com/usmanali56/Portfolio.git",
     featured: true,
   },
   {
     id: 3,
-    title: "WeatherScope Pro",
+    title: "Portfolio Website",
     description:
-      "Beautiful weather application with 7-day forecasts, geolocation, animated icons, and glassmorphism UI design.",
-    tech: ["JavaScript", "OpenWeather API", "CSS", "Responsive"],
-    image:
-      "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&q=80",
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "A modern and responsive personal portfolio website showcasing my projects, technical skills, experience, and achievements. Designed with a clean UI and smooth user experience to effectively highlight my work as a Frontend Developer.",
+    tech: ["JavaScript", "React","HTML", "CSS", "Responsive"],
+    image:  siteImages.myportfolio,
+    liveUrl: "https://portfolio-website-q9wp.vercel.app/",
+    githubUrl: "https://github.com/theirhasnain-eng/portfolio-website",
     featured: true,
   },
 ];
