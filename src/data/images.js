@@ -25,5 +25,5 @@ export const siteImages = {
 
     /** Weather card   project card */
 
-   portfolio: "/images/weather.png",
+   weatherapp: "/images/weather-pic.png",
 };
