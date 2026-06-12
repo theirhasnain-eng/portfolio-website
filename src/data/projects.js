@@ -40,7 +40,7 @@ export const projects = [
     description:
       "weather application using vanilla JavaScript and the OpenWeathe  rMap API. Features real-time weather data including temperature, humidity, wind speed, visibility, pressure, and sunrise/sunset times for any city worldwide. ",
     tech: ["JavaScript", "React","HTML", "CSS", "Responsive"],
-    image:  siteImages.weather,
+    image:  siteImages.weatherapp,
     liveUrl: "https://weather-app-lyart-tau-75.vercel.app/",
     githubUrl: "https://github.com/theirhasnain-eng/weather-app",
     featured: true,
