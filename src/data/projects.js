@@ -34,4 +34,15 @@ export const projects = [
     githubUrl: "https://github.com/theirhasnain-eng/portfolio-website",
     featured: true,
   },
+   {
+    id: 3,
+    title: "Weather web App",
+    description:
+      "weather application using vanilla JavaScript and the OpenWeatherMap API. Features real-time weather data including temperature, humidity, wind speed, visibility, pressure, and sunrise/sunset times for any city worldwide. ",
+    tech: ["JavaScript", "React","HTML", "CSS", "Responsive"],
+    image:  siteImages.weather,
+    liveUrl: "https://weather-app-lyart-tau-75.vercel.app/",
+    githubUrl: "https://github.com/theirhasnain-eng/weather-app",
+    featured: true,
+  },
 ];

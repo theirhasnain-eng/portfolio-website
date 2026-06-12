@@ -22,4 +22,8 @@ export const siteImages = {
    /** Portfolio-2  project card */
 
    portfolio: "/images/portfolio-2.png",
+
+    /** Weather card   project card */
+
+   portfolio: "/images/weather.png",
 };
