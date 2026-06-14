@@ -7,10 +7,10 @@
  */
 export const siteImages = {
   /** Photo on the homepage (Hero section) */
-  hero: "/images/pic-1.jpg",
+  hero: "/images/pic-1.png",
 
   /** Photo in the About section */
-  about: "/images/pic-2.jpg",
+  about: "/images/pic-2.png",
 
   /** Smart Resume AI project card */
   smartResumeAi: "/images/smart-resume-ai.png",
