@@ -12,7 +12,7 @@ From responsive landing pages to complex dashboards, I combine clean architectur
   resumeFileName: "Hasnain-CV.pdf",
   social: {
     github: "https://github.com/theirhasnain-eng",
-    linkedin: "https://www.linkedin.com/in/muhammad-hasnain-a2916237b/",
+    linkedin: "https://www.linkedin.com/in/theirhasnain/",
     twitter: "https://twitter.com",
   },
   stats: [
