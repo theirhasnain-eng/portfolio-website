@@ -45,4 +45,15 @@ export const projects = [
     githubUrl: "https://github.com/theirhasnain-eng/weather-app",
     featured: true,
   },
+   {
+    id: 5,
+    title: "Barber shop web App",
+    description:
+      "A fully responsive Barber Shop website built with HTML, CSS, Bootstrap 5, and JavaScript. Features smooth scroll navigation, services showcase, booking form, and Google Maps integration. ",
+    tech: ["JavaScript", "Bootstrap","HTML", "CSS", "Responsive"],
+    image:  siteImages.barbershop,
+    liveUrl: "https://barber-shop-web-six.vercel.app/",
+    githubUrl: "https://github.com/theirhasnain-eng/barber-shop-web.git",
+    featured: true,
+  },
 ];

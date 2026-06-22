@@ -26,4 +26,8 @@ export const siteImages = {
     /** Weather card   project card */
 
    weatherapp: "/images/weather-pic.png",
+
+    /** baber shop web card   project card */
+
+   barbershop: "/images/barber-web.png",
 };
