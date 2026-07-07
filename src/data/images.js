@@ -30,4 +30,8 @@ export const siteImages = {
     /** baber shop web card   project card */
 
    barbershop: "/images/barber-web.png",
+
+       /** pipe-line  web card   project card */
+
+   pipeline: "/images/pipe-line.png",
 };

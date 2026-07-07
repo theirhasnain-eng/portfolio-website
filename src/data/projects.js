@@ -56,4 +56,15 @@ export const projects = [
     githubUrl: "https://github.com/theirhasnain-eng/barber-shop-web.git",
     featured: true,
   },
+   {
+    id: 6,
+    title: "PipelineIQ - Business Website",
+    description:
+      "A pixel-perfect clone of the PipelineIQ business website, built during my internship at Kiwilogics. Implemented using two approaches — vanilla HTML, CSS & JavaScript for core fundamentals, and React.js for a component-based, reusable architecture. Focused on responsive layouts, clean UI structuring, and accurate design replication. ",
+    tech: ["React", "JavaScript", "HTML", "CSS", "Responsive"],
+    image:  siteImages.pipeline,
+    liveUrl: "https://kiwi-logics-pipe-line-m7wh.vercel.app/",
+    githubUrl: "https://github.com/theirhasnain-eng/kiwi-logics-pipe-line",
+    featured: true,
+  },
 ];
