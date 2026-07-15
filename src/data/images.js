@@ -10,7 +10,7 @@ export const siteImages = {
   hero: "/images/pic-1.png",
 
   /** Photo in the About section */
-  about: "/images/pic-2.png",
+  about: "/images/pic-1.png",
 
   /** Smart Resume AI project card */
   smartResumeAi: "/images/smart-resume-ai.png",

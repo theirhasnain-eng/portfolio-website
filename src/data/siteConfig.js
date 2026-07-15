@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Hasnain",
-  title: "Frontend Developer",
+  title: "MernStack Developer",
   tagline:
     "I design and build stunning, high-performance web experiences that convert visitors into clients.",
   email: "theirhasnain@gmail.com",
