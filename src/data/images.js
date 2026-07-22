@@ -34,4 +34,6 @@ export const siteImages = {
        /** pipe-line  web card   project card */
 
    pipeline: "/images/pipe-line.png",
+    /** skilline web card   project card */
+    skilline: "/images/skilline.png",
 };

@@ -67,4 +67,14 @@ export const projects = [
     githubUrl: "https://github.com/theirhasnain-eng/kiwi-logics-pipe-line",
     featured: true,
   },
+  {
+    id: 7,
+    title: "Skilline Website ",
+    description:"A responsive clone of the Skilline landing page, built during my internship at Kiwilogics using React.js and Tailwind CSS. Recreated from a Figma design with a component-based architecture and interactive UI elements.",
+    tech: ["React", "JavaScript", "HTML", "Tailwind-CSS", "Responsive"],
+    image:  siteImages.skilline,
+    liveUrl: "https://skillie-kiwilogics.vercel.app/",
+    githubUrl: "https://github.com/theirhasnain-eng/skillie-kiwilogics",
+    featured: true,
+  },
 ];
